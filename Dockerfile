@@ -13,7 +13,7 @@ RUN adduser -D tomcat \
     && chmod +x $Tomcat_User/bin/*.sh
 ExPOSE 8080
 USER tomcat
-COPY /opt/tomcat /usr/local/tomcat
-COPY target/maven-web-application*.war /usr/local/tomcat/webapps/maven-web-application.war
-CMD ["/usr/local/tomcat/bin/catalina.sh", "run"]
+
+COPY target/maven-web-application*.war /opt/tomcat/webapps/maven-web-application*.war
+CMD ["/opt/tomcat/bin/catalina.sh","run"]
 
