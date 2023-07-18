@@ -37,7 +37,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 		Gundu Rakesh, 
 		Warangal, Devaruppula,
 		Telagana,
-		+91-9980923226,+91-9900012028
+		+91-7013259522
 		devopstrainingblr@gmail.com
 		<br>
 		<a href="mailto:devopstrainingblr@gmail.com">Mail to Mithun Technologies</a>
