@@ -7,8 +7,8 @@ RUN adduser -D tomcat \
     && mkdir $Tomcat_User \
     && cd /tmp \
     && wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.78/bin/apache-tomcat-9.0.78.tar.gz \
-    && tar xfz apache-tomcat-9.0.73.tar.gz \
-    && mv apache-tomcat-9.0.73/* $Tomcat_User \
+    && tar xfz apache-tomcat-9.0.78.tar.gz \
+    && mv apache-tomcat-9.0.78.tar.gz/* $Tomcat_User \
     && chown -R tomcat:tomcat $Tomcat_User \
     && chmod +x $Tomcat_User/bin/*.sh
 ExPOSE 8080
