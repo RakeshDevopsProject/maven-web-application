@@ -14,7 +14,7 @@ spec:
     spec: 
       containers: 
       - name: mavenapp
-        image: gundurakesh/mavenapp
+        image: gundurakesh/mavenapp:TAG
         ports:
         - containerPort: 8080
 ---
