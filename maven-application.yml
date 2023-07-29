@@ -4,7 +4,7 @@ metadata:
   name: mavenapp
 spec: 
   replicas: 2 
-  selectors:
+  selector:
     matchLabels:
       tier: frontend
   template: 
