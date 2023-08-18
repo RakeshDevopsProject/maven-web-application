@@ -129,7 +129,7 @@
 				<configuration>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
-						<contextPath>/maven-web-application</contextPath>
+						<contextPath>/maven-web-application/</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
@@ -142,7 +142,7 @@
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
-					<wtpContextName>maven-web-application</wtpContextName>
+					<wtpContextName>maven-web-application/</wtpContextName>
 				</configuration>
 			</plugin>
 			
