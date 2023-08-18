@@ -3,11 +3,21 @@ pipeline{
     tools {
         maven 'maven3.9.2'
     } 
+    environment {
+        Version = "${env.BUILD_NUMBER}"
+    }
     stages{
        stage("Building Artifacts"){
-          steps{
-             sh "mvn clean package"  
-          }
+            steps{
+                sh "mvn clean package"  
+            }
+       }
+       stage("Build docker image"){
+            steps{
+                script{
+                    sh "docker build -t gundurakesh/mavenapplication:${Version} ."
+                }
+            }
        }
 
 
