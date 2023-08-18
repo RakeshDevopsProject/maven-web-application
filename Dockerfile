@@ -1,3 +1,3 @@
-FROM  tomcat:9.0.78-jdk11-corretto-al2
+FROM  tomcat:8.0.15-jre7
 COPY target/maven-web-application*.war /usr/local/tomcat/maven-web-application*.war
 
