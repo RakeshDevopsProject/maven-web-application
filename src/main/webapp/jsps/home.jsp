@@ -31,7 +31,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 <hr>
 <div style="text-align: center;">
 	<span>
-		<img src="images/mithunlogo.jpg" alt="" width="100">
+		
 	</span>
 	<span style="font-weight: roboto;">
 		Gundu Rakesh, 
@@ -40,15 +40,12 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 		+91-7013259522
 		devopstrainingblr@gmail.com
 		<br>
-		<a href="mailto:devopstrainingblr@gmail.com">Mail to Mithun Technologies</a>
+		<a href="mailto:rakeshg7013@gmail.com">Rakesh Profile</a>
 	</span>
 </div>
 <hr>
 	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
 <hr>
 <hr>
-<p align=center>Mithun Technologies - Consultant, Training, Development Center.</p>
-<p align=center><small>Copyrights 2022 by <a href="http://mithuntechnologies.com/">Mithun Technologies,Bengaluru</a> </small></p>
-
 </body>
 </html>
